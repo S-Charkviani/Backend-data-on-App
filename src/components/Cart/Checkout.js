@@ -10,7 +10,7 @@ const Checkout = (props) => {
     postalCode: true,
     city: true,
   });
-  const nameInputRef = useRef();
+  const nameInputRef = useRef();       //Custom Hook is better option
   const streetInputRef = useRef();
   const postalCodeInputRef = useRef();
   const cityInputRef = useRef();
